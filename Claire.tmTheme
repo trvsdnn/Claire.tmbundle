@@ -20,7 +20,7 @@
 				<key>lineHighlight</key>
 				<string>#9B9B00</string>
 				<key>selection</key>
-				<string>#FCF9FFE0</string>
+				<string>#FCF2FF54</string>
 			</dict>
 		</dict>
 		<dict>
@@ -455,6 +455,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FF319F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#333333</string>
 			</dict>
 		</dict>
 	</array>
