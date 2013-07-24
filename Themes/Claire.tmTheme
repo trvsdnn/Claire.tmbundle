@@ -349,6 +349,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>meta.tag</string>
+			<key>scope</key>
+			<string>meta.tag, meta.tag entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#57AAFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Other Keywords</string>
 			<key>scope</key>
 			<string>keyword.other</string>
@@ -498,7 +509,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#EEEEEE</string>
+				<string>#222222</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 	</array>
