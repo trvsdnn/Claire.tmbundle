@@ -38,6 +38,21 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Text: Writing</string>
+			<key>scope</key>
+			<string>text.plain,text.html.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>fontName</key>
+				<string>Menlo</string>
+				<key>fontSize</key>
+				<integer>15</integer>
+				<key>foreground</key>
+				<string>#BEBEBE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Inline Ruby Html</string>
 			<key>scope</key>
 			<string>source.ruby.rails.embedded.html</string>
@@ -487,18 +502,108 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EEEEEE</string>
+				<string>#CECECE</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Markup: Heading</string>
 			<key>scope</key>
-			<string>markup.heading</string>
+			<string>markup.heading,markup.heading.1,markup.heading.2,markup.heading.3,markup.heading.4,markup.heading.5,markup.heading.6</string>
+			<key>settings</key>
+			<dict>
+				<key>fontName</key>
+				<string>Menlo</string>
+				<key>foreground</key>
+				<string>#4E89BA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Heading 1</string>
+			<key>scope</key>
+			<string>markup.heading.1</string>
+			<key>settings</key>
+			<dict>
+				<key>fontSize</key>
+				<integer>21</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Heading 2</string>
+			<key>scope</key>
+			<string>markup.heading.2</string>
+			<key>settings</key>
+			<dict>
+				<key>fontSize</key>
+				<integer>20</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Heading 3</string>
+			<key>scope</key>
+			<string>markup.heading.3</string>
+			<key>settings</key>
+			<dict>
+				<key>fontSize</key>
+				<integer>19</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Heading 4</string>
+			<key>scope</key>
+			<string>markup.heading.4</string>
+			<key>settings</key>
+			<dict>
+				<key>fontSize</key>
+				<integer>18</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Heading 5</string>
+			<key>scope</key>
+			<string>markup.heading.5</string>
+			<key>settings</key>
+			<dict>
+				<key>fontSize</key>
+				<integer>17</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Heading 6</string>
+			<key>scope</key>
+			<string>markup.heading.6</string>
+			<key>settings</key>
+			<dict>
+				<key>fontSize</key>
+				<integer>16</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Link Title</string>
+			<key>scope</key>
+			<string>string.other.link.title.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#4CCCFF</string>
+				<string>#67B42B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Link href</string>
+			<key>scope</key>
+			<string>markup.underline.link.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#777777</string>
 			</dict>
 		</dict>
 		<dict>
