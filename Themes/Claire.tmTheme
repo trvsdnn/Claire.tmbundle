@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>name</key>
@@ -46,7 +46,7 @@
 				<key>fontName</key>
 				<string>Menlo</string>
 				<key>fontSize</key>
-				<integer>15</integer>
+				<string>15</string>
 				<key>foreground</key>
 				<string>#BEBEBE</string>
 			</dict>
@@ -92,7 +92,8 @@
 			<key>scope</key>
 			<string>source.ruby</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -334,6 +335,8 @@
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
+				<key>foreground</key>
+				<string>#56c13e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -436,7 +439,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#FF319F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -526,7 +529,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontSize</key>
-				<integer>21</integer>
+				<string>21</string>
 			</dict>
 		</dict>
 		<dict>
@@ -537,7 +540,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontSize</key>
-				<integer>20</integer>
+				<string>20</string>
 			</dict>
 		</dict>
 		<dict>
@@ -548,7 +551,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontSize</key>
-				<integer>19</integer>
+				<string>19</string>
 			</dict>
 		</dict>
 		<dict>
@@ -559,7 +562,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontSize</key>
-				<integer>18</integer>
+				<string>18</string>
 			</dict>
 		</dict>
 		<dict>
@@ -570,7 +573,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontSize</key>
-				<integer>17</integer>
+				<string>17</string>
 			</dict>
 		</dict>
 		<dict>
@@ -581,7 +584,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontSize</key>
-				<integer>16</integer>
+				<string>16</string>
 			</dict>
 		</dict>
 		<dict>
@@ -619,8 +622,23 @@
 				<string>bold</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>String HTML</string>
+			<key>scope</key>
+			<string>string.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#56c13e</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>4679D337-DC0E-47E8-9BDB-94F0C472FCEA</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>semanticClass</key>
+	<string>theme.dark.claire</string>
 </dict>
 </plist>
