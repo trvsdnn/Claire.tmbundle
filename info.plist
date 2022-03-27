@@ -2,16 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>contactEmailRot13</key>
-	<string>gqhaa13@tznvy.pbz</string>
-	<key>contactName</key>
-	<string>Blahed</string>
-	<key>description</key>
-	<string>Claire theme</string>
-	<key>isDisabled</key>
-	<false/>
-	<key>name</key>
-	<string>Claire</string>
+	<key>isDelta</key>
+	<true/>
 	<key>uuid</key>
 	<string>9AB606CD-E47A-4201-B898-FBF446BEE88A</string>
 </dict>
