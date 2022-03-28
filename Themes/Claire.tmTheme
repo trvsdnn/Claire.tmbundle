@@ -20,7 +20,7 @@
 					<key>lineHighlight</key>
 					<string>#9B9B00</string>
 					<key>selection</key>
-					<string>#FCF2FF54</string>
+					<string>#FCF2FF30</string>
 				</dict>
 			</dict>
 			<dict>
@@ -209,15 +209,24 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Variable</string>
+				<string>Ruby blocks</string>
 				<key>scope</key>
-				<string>variable.other</string>
+				<string>variable.other.block.ruby</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#6ec499</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Library class/type</string>
+				<key>scope</key>
+				<string>support.type, support.class</string>
 				<key>settings</key>
 				<dict>
 					<key>fontStyle</key>
-					<string></string>
-					<key>foreground</key>
-					<string>#FFFFFF</string>
+					<string>italic</string>
 				</dict>
 			</dict>
 			<dict>
@@ -250,7 +259,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#71ED15</string>
+					<string>#65d400</string>
 				</dict>
 			</dict>
 			<dict>
@@ -271,10 +280,8 @@
 				<string>string.interpolated</string>
 				<key>settings</key>
 				<dict>
-					<key>background</key>
-					<string>#CCCC33</string>
 					<key>foreground</key>
-					<string>#000000</string>
+					<string>#CCCC33</string>
 				</dict>
 			</dict>
 			<dict>
