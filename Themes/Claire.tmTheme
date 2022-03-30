@@ -231,7 +231,7 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>ActiveRecord Function</string>
+				<string>ActiveRecord function</string>
 				<key>scope</key>
 				<string>support.function.activerecord.rails</string>
 				<key>settings</key>
@@ -242,9 +242,20 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>ActionPack Function</string>
+				<string>ActionPack function</string>
 				<key>scope</key>
 				<string>support.function.actionpack.rails</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#999966</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Ruby test function</string>
+				<key>scope</key>
+				<string>support.function.test.assertion.ruby, support.function.test.refutation.ruby</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
